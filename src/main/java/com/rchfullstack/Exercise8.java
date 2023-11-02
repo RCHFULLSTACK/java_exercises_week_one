@@ -21,9 +21,9 @@ public class Exercise8 {
             numberOfGuesses++;
 
             if (userGuess < randomNumber) {
-                System.out.println("You guess was to small. ");
+                System.out.println("You guess was too small. ");
             } else if (userGuess > randomNumber) {
-                System.out.println("Your guess was to big. ");
+                System.out.println("Your guess was too big. ");
             } else {
                 System.out.println("Congratulation! You've guessed the number " + randomNumber + " in " + numberOfGuesses + " Guesses.");
             }

@@ -21,7 +21,9 @@ public class Exercise3 {
             case "/":
                 if (num2!=0) {
                     result = num1 / num2;
-                    break;
+                } else {
+                    System.out.println("Division by zero is not allowed");
+                    return;
                 }
                 break;
             default:

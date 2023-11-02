@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercise2 {
     public void exerciseTwoLeapYear() {
         try (Scanner scanInput = new Scanner(System.in)) {
-            System.out.println("Enter anny year and press enter: ");
+            System.out.println("Enter any year and press Enter: ");
             int year = scanInput.nextInt();
 
             if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {

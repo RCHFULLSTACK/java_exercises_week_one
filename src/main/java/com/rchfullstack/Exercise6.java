@@ -5,18 +5,18 @@ public class Exercise6 {
         Scanner scannerInput = new Scanner(System.in);
 
         System.out.println("Enter the first number: ");
-        double numb1 = scannerInput.nextDouble();
+        int numb1 = (int) scannerInput.nextDouble();
 
         System.out.println("Enter the second number: ");
-        double numb2 = scannerInput.nextDouble();
+        int numb2 = (int) scannerInput.nextDouble();
 
         if (numb2 == 0) {
             System.out.println("Division by zero is undefined.");
         } else {
-            double sum = numb1 + numb2;
-            double multiplication = numb1 * numb2;
-            double division = numb1 / numb2;
-            double difference = numb1 - numb2;
+            int sum = numb1 + numb2;
+            int multiplication = numb1 * numb2;
+            int division = numb1 / numb2;
+            int difference = numb1 - numb2;
 
             System.out.println("Sum: " + sum);
             System.out.println("Multiplication: " + multiplication);
